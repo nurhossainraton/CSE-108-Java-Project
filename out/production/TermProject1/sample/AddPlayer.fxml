@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="705.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Club">
+   <children>
+      <AnchorPane layoutX="14.0" prefHeight="705.0" prefWidth="868.0">
+         <children>
+            <ImageView fitHeight="694.0" fitWidth="862.0" layoutY="11.0" pickOnBounds="true">
+               <image>
+                  <Image url="@image3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="202.0" layoutY="77.0" prefHeight="26.0" prefWidth="70.0" text=" Name : " textFill="#dc1010">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="203.0" layoutY="314.0" text=" Country : " textFill="#ec1313">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="185.0" prefHeight="26.0" prefWidth="59.0" text="Age   :" textFill="#f50c65">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="246.0" prefHeight="26.0" prefWidth="70.0" text="Height  : " textFill="#ed0569">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="200.0" layoutY="132.0" prefHeight="40.0" prefWidth="89.0" text="Club     : " textFill="#ed1317">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="388.0" text="Position : " textFill="#eb076a">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="203.0" layoutY="523.0" text="Weekly Salary : " textFill="#d91c30">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameIn" layoutX="336.0" layoutY="66.0" promptText="Enter a player's name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="clubIn" layoutX="337.0" layoutY="132.0" promptText="Enter a player's Club ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="age" layoutX="337.0" layoutY="185.0" prefHeight="38.0" prefWidth="223.0" promptText="Enter a player's Age">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="height" layoutX="337.0" layoutY="239.0" promptText="Enter a player's Height">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="country1" layoutX="337.0" layoutY="307.0" promptText="Enter a player's Country">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="position" layoutX="339.0" layoutY="381.0" promptText="Enter a player's Position">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="number" layoutX="339.0" layoutY="453.0" promptText="Enter a player's Jersy Number">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="salary" layoutX="339.0" layoutY="514.0" promptText="Enter a player's WeeklySalary">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="196.0" layoutY="459.0" prefHeight="27.0" prefWidth="145.0" text="Jersy Number :" textFill="#e81313">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="339.0" layoutY="583.0" mnemonicParsing="false" onAction="#playerAdd" prefHeight="37.0" prefWidth="131.0" text="Add Player">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="522.0" layoutY="582.0" mnemonicParsing="false" onAction="#mainPage" prefHeight="38.0" prefWidth="85.0" text="Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

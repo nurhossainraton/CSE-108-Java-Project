@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="712.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Club">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="671.0" prefWidth="835.0">
+         <children>
+            <Label layoutX="33.0" layoutY="37.0" prefHeight="32.0" prefWidth="289.0" text="Enter maximum Salary :">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="91.0" prefHeight="32.0" prefWidth="224.0" text="Enter minimum Salary :">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <TextField fx:id="maxsalary" layoutX="327.0" layoutY="38.0" prefHeight="32.0" prefWidth="166.0" />
+            <TextField fx:id="minsalary" layoutX="327.0" layoutY="94.0" prefHeight="32.0" prefWidth="165.0" />
+            <TextArea fx:id="textarea3" layoutX="-3.0" layoutY="215.0" prefHeight="374.0" prefWidth="893.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </TextArea>
+            <Button layoutX="377.0" layoutY="162.0" mnemonicParsing="false" onAction="#SearchBySalary" prefHeight="26.0" prefWidth="76.0" text="Search">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="399.0" layoutY="604.0" mnemonicParsing="false" onAction="#BackToSearchMenu" prefHeight="26.0" prefWidth="76.0" text="Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
